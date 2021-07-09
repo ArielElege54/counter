@@ -1,81 +1,80 @@
 * {
-   padding: 0;
-   margin: 0;
+	padding: 0;
+	margin: 0;
 }
 body {
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   position: relative;
-   background: url('./img.jpg') no-repeat;
-   background-size: cover;
-   background-position: center center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background: url('./img.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 main {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .hero {
-   border: 0.08rem solid white;
-   box-shadow: 0 0.3rem 7px 1px black;
-   margin: 0;
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding: 2rem 4rem;
-   height: fit-content;
+	border: 0.08rem solid white;
+	box-shadow: 0 0.3rem 7px 1px black;
+	margin: 0;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 4rem;
+	height: fit-content;
 }
 .header {
-   font-size: 5rem;
-   color: white;
-   font-weight: 600;
+	font-size: 3rem;
+	color: white;
+	font-weight: 600;
 }
 .count {
-   font-size: 8rem;
-   color: hsl(120, 100%, 25%);
-   font-weight: 600;
+	font-size: 8rem;
+	color: hsl(120, 100%, 25%);
+	font-weight: 600;
 }
 button {
-   display: block;
-   background: hsl(229, 100%, 20%);
-   color: white;
-   border: none;
-   font-size: 2rem;
-   border-radius: 0.3rem;
-   padding: 0.5rem;
-   margin: 1rem auto;
-   box-shadow: 0 0.1rem 7px 2px black;
-   cursor: pointer;
-   transition: transform 0.3s;
-   text-transform: uppercase;
+	display: block;
+	background: hsl(229, 100%, 20%);
+	color: white;
+	border: none;
+	font-size: 1.1rem;
+	border-radius: 0.3rem;
+	padding: 0.5rem;
+	margin: 1rem auto;
+	box-shadow: 0 0.1rem 7px 2px black;
+	cursor: pointer;
+	transition: transform 0.3s;
+	text-transform: uppercase;
 }
 
 button:hover {
-   filter: brightness(170%);
-   transform: rotateY(20deg);
+	filter: brightness(170%);
+	transform: rotateY(20deg);
 }
 footer {
-   padding: 2rem;
-   padding-bottom: 0.3rem;
+	padding: 2rem;
+	padding-bottom: 0.3rem;
 }
 footer a {
-   color: black;
-   text-decoration: none;
-   font-size: 3rem;
-   font-weight: bold;
-   transition: filter 0.4s;
+	color: black;
+	text-decoration: none;
+	font-size: 3rem;
+	font-weight: bold;
+	transition: filter 0.4s;
 }
 
 footer a:hover {
-   filter: invert(100%);
+	filter: invert(100%);
 }
-
 
 /* aside {
    width:70%;
