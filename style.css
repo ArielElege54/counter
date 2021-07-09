@@ -28,7 +28,7 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 2rem 4rem;
+	padding: 2rem 2rem;
 	height: fit-content;
 }
 .header {
